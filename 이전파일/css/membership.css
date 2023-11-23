@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'RixInooAriDuriR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.loginLogo { width: 100%; margin: 50px 0; text-align: center; }
+.loginBox { width: 400px; height: 300px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px 0; margin: auto; overflow: hidden;
+            text-align: center; }
+.loginText { font-family: 'ONE-Mobile-Regular'; font-size: 1.2em; color: #626262; }
+.inputField { width: 300px; height: 100px; border-radius: 10px; border: 2px solid #e0e0e0; margin: auto; outline: none; overflow: hidden; }
+.inputBar { width: 100%; height: 50px; border-bottom: 1.5px solid #e0e0e0; overflow: hidden; }
+.inputBar input { width: 100%; height: 100%; outline: none; }
+.idInput { font-size: 1em; width: 100%; height: 40px; border: 0 solid black; }
+.passInput { font-size: 1em; width: 100%; height: 40px; border: 0 solid black; }
+.loginBtn { width: 300px; height: 50px; border: 0px; border-radius: 10px; background-color: #87003a; outline: none; font-size: 1em; color: #ffffff; }
+.loginSupport { margin: 30px; text-align: center; }
+.loginSupport a { text-decoration: none; color: #626262; }
+.memberTop { display: flex; align-items: center; width: 600px; margin: 50px auto 20px auto; }
+.memberTop1 { width: 50%; }
+.memberTop2 { width: 50%; text-align: right; font-family: 'ONE-Mobile-Regular'; font-size: 3em; color: #87003a; }
+.bmemberBox { width: 700px; height: 400px; padding: 50px 0; border: 2px solid #e0e0e0; border-radius: 10px; margin: auto; overflow: hidden;
+              text-align: center; }
+.memberBox { width: 600px; height: 305px; border: 2px solid #e0e0e0; border-radius: 10px; margin: auto; overflow: hidden; text-align: center; }
+.inputBar1 { width: 30%; height: 50px; border-bottom: 1.5px solid #e0e0e0; border-right: 1.5px solid #e0e0e0; overflow: hidden; }
+.inputBar1 > span { width: 100%; height: 100%; margin-top: 10px; }
+.inputBar2 { width: 70%; height: 50px; border-bottom: 1.5px solid #e0e0e0; border-right: 1.5px solid #e0e0e0; overflow: hidden; }
+.inputBar2 input { width: 100%; height: 100%; outline: none; }
+select { width: 100%; height: 100%; padding: 0.8em 0.5em; border: 0px solid #999; border-radius: 0px; font-size: 1em; background-color: #ffffff;
+         color: #626262; }
+select::-ms-expand { display: none; }
+.joinBtn { margin: 40px 0; width: 300px; height: 50px; border: 0px; border-radius: 10px; background-color: #87003a; outline: none; font-size: 1em;
+           color: #ffffff; }
+.aa { margin-top: 12px; }

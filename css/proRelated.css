@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "RixInooAriDuriR";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2")
+      format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ONE-Mobile-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'OAGothic-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+  }
+.probox { display: flex; width: 100%; height: 1000px; }
+.proimg { width: 50%; height: 100%; padding: 50px; box-sizing: border-box; overflow: hidden; }
+.proimg img { width: 100%; height: 100%; object-fit: cover; }
+.proinfo { position: relative; width: 50%; height: 100%; padding: 80px 0; box-sizing: border-box; font-family: "ONE-Mobile-Regular"; }
+.pinfo { width: 100%; margin: 30px 0; font-size: 2em; }
+.pinfo1 { width: 100%; margin: 30px 0; font-size: 1.5em; }
+.pinfo1 span { font-weight: bold; color: #99004c; font-family: 'OAGothic-ExtraBold'; }
+.pcount { display: flex; width: 100%; margin: 50px 0; font-size: 1.5em; }
+.pcount1{ margin-right: 20px; }
+.pcount2{ display: flex; width: 250px; border: 1px solid #979494; overflow: hidden; }
+#cResult { width: 150px; text-align: center; }
+.pcount2 button { width: 50px; height: 100%; border: 0px; background-color: #979494; outline: none; font-size: 1em; color: #ffffff; }
+#shopBasketBtn { margin: 40px 0; width: 300px; height: 60px; border: 1px solid #979494; background-color: #ffffff; outline: none; font-size: 0.5em;
+                 color: black; }
+#buyNowBtn { margin: 40px 0; width: 300px; height: 60px; border: 1px solid #252525; background-color: #252525; outline: none; font-size: 0.5em;
+             color: #ffffff; }
+.pBtn { position: absolute; width: 100%; bottom: 50px; font-size: 2em; }
+.choose { display: flex; justify-content: center; }
+.choose button { width: 50%; height: 50px; border: 0; background-color: #ffffff; }
+#cBtn1 { border-top: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000; font-size: 1.2em;
+         font-family: "ONE-Mobile-Regular"; }
+#cBtn2 { border-top: 2px solid #c7c7c7; border-bottom: 2px solid #000000; border-right: 2px solid #c7c7c7; font-size: 1.2em;
+         font-family: "ONE-Mobile-Regular"; }
+.line{ width: 87%; height: 0px; border: 0.5px solid #c5c5c5; }
+.twoMenu { position: relative; display: flex; width: 100%; height: 800px; }
+#menu1 { position: absolute; width: 100%; background-color: #ffffff; z-index: 3; }
+#menu2 { position: absolute; width: 100%; background-color: #ffffff; box-sizing: border-box; z-index: 2; font-family: "ONE-Mobile-Regular"; }
+#menu3 { position: absolute; width: 100%; background-color: #ffffff; z-index: 1; }
+#reviewWrite { position: absolute; width: 80px; height: 30px; background-color: #353535; color: #ffffff; right: 20px; }
+.reviewBx1 { display: flex; width: 100%; height: 80px; }
+.reviewBx1 img { margin: 15px 10px 0 15px; width: 50px; height: 50px; }
+.rBxName { margin-top: 20px; box-sizing: border-box; font-size: 1.2em; }
+.reviewBx2 { padding: 20px 0 20px 15px; width: 100%; border-bottom: 1px solid #a8a8a8; }
+.explanation{ text-align: center; font-family: "ONE-Mobile-Regular"; font-size: 1.5em; }
+.box1{ width: 1000px; height: 30px; background-color: #000000; margin-left: auto; margin-right: auto; margin-top: 20px; text-align: center;
+       padding-top: 5px; color: #ffffff; font-family: "ONE-Mobile-Regular"; font-size: 1.3em; }
+.box2{ display: flex; justify-content: space-between; width: 1000px; height: 150px; padding-top: 10px; margin-left: auto; margin-right: auto; }
+.box3{ width: 130px; height: 130px; border-radius: 30px 30px 0 0; border: 1px solid #000000; overflow: hidden; }
+.box4{ width: 130px; height: 40px; padding-top: 10px; box-sizing: border-box; font-size: 1em; text-align: center; font-family: "ONE-Mobile-Regular";
+       color: #ffffff; background-color: #000000; }
+.img{ width: 1000px; margin-left: auto; margin-right: auto; }
+.img img{ margin-left: -20px; }
+.listBx { width: 100%; margin-top: 50px; font-family: "ONE-Mobile-Regular"; }
+.listText { width: 1400px; height: 50px; box-sizing: border-box; border: 1px solid #e4e4e4; padding: 15px; color: #858585; }
+.proBx { display: flex; width: 1400px; height: 250px; box-sizing: border-box; border: 1px solid #e4e4e4; }
+.proBxImg { width: 20%; height: 100%; }
+.proBxImg div { display: flex; justify-content: center; align-items: center; margin: 20px 0 0 20px; width: 240px; height: 210px; overflow: hidden; }
+.proBxImg img { width: 100%; }
+.proBxContent { width: 60%; height: 100%; padding: 30px; box-sizing: border-box; font-size: 1.5em; }
+.pbcTitle { width: 100%; height: 125px; line-height: 1.4em; }
+.pbcTitle span { font-weight: bolder; color: #87003a; font-family: 'OAGothic-ExtraBold'; }
+.pbcReview { display: flex; width: 100%; height: 125px; border-top: 1px solid #bebebe; box-sizing: border-box; }
+.pbcIcon { padding: 15px; box-sizing: border-box; }
+.pbcIcon img { width: 40px; height: 40px; }
+.pbcrContent { margin-top: 20px; font-size: 0.5em; color: #858585; }
+.proBxContent2 { text-align: center; width: 20%; height: 100%; padding: 45px 0; box-sizing: border-box; }
+.proBxContent2 div { width: 100%; height: 50%; }
+.pbCount{ display: flex; justify-content: center; }
+.pbCount > button { width: 40px; height: 40px; border: 0; border-radius: 50%; background-color: #c0c0c0; outline: none; font-size: 1em; color: #ffffff; }
+.pbCount > div { width: 60px; padding-top: 10px; color: #a8a8a8; }
+.basket { width: 180px; height: 45px; border: 0px; border-radius: 30px; margin-top: 20px; background-color: #c0c0c0; outline: none; font-size: 1.2em;
+          color: #ffffff; }
+.bigTable { box-sizing: border-box; border-collapse : collapse; border-spacing : 0; border: 1px solid #858585; font-family: "ONE-Mobile-Regular"; }
+.table1 { width: 100px; border: 1px solid #000000; background-color: #252525; color: #ffffff; }
+.table2 { width: 1300px; border: 1px solid #000000; }
+#starBx { width: 150px; }
+.pcount3{ display: flex; margin: 10px; width: 250px; overflow: hidden; }
+#reviewBtn{ width: 100px; height: 50px; border: 0; background-color: #252525; color: #ffffff; }
+.buyImg img { width:130px; height:129px; }
+.buyContent { width:1200px; margin:30px 0 0 40px; font-family: "ONE-Mobile-Regular"; }
+.purchase { width:100%; margin:120px 0 100px 0; font-size:3em; font-weight:bold; color:#505050; text-align:center;}
+#payMath { width:90px; height:30px; border:1px solid #252525; background-color:#252525; outline:none; color:#ffffff; }
+#payMa { display: none; }
+.kub { width: 100px; height: 44px; border: 0; background-color: #252525; color: #ffffff; }
+.payMa1 { display: flex; width: 100%; height: 80px; }
+.payMa1 img { width: 50px; height: 50px; }
+#bankBorder1 { margin: 0 10px 0 10px; width: 70px; height: 60px; border: 2px solid #ababab; border-radius: 5px; padding-top: 5px; text-align: center;
+               overflow: hidden; }
+#bankBorder2 { margin: 0 10px 0 10px; width: 70px; height: 60px; border: 2px solid #ababab; border-radius: 5px; padding-top: 5px; text-align: center;
+               overflow: hidden; }
+#bankBorder3 { margin: 0 10px 0 10px; width: 70px; height: 60px; border: 2px solid #ababab; border-radius: 5px; padding-top: 5px; text-align: center;
+               overflow: hidden; }
+#bankBorder4 { margin: 0 10px 0 10px; width: 70px; height: 60px; border: 2px solid #ababab; border-radius: 5px; padding-top: 5px; text-align: center;
+               overflow: hidden; }
+#bankBorder5 { margin: 0 10px 0 10px; width: 70px; height: 60px; border: 2px solid #ababab; border-radius: 5px; padding-top: 5px; text-align: center;
+               overflow: hidden; }
+.star-rating { width:76px; }
+.star-rating2 { width:76px; margin: 10px 0 0 30px; }
+.star-rating,.star-rating span {display:inline-block; height:14px; overflow:hidden; 
+background:url(https://user-images.githubusercontent.com/131941441/236115787-7f452d9e-2cbd-49f3-9cc7-f9272880ad4c.png)no-repeat; }
+.star-rating2,.star-rating2 span {display:inline-block; height:14px; overflow:hidden; 
+background:url(https://user-images.githubusercontent.com/131941441/236115787-7f452d9e-2cbd-49f3-9cc7-f9272880ad4c.png)no-repeat; }
+.star-rating span{ background-position:left bottom; line-height:0; vertical-align:top; }
+.star-rating2 span{ background-position:left bottom; line-height:0; vertical-align:top; }

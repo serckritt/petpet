@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "RixInooAriDuriR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ONE-Mobile-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body { padding:0; margin:0; }
+.webWidth { width:1400px; margin-left:auto; margin-right:auto; overflow:hidden; }
+.main_area { display:flex; align-items:center; width:100%; margin-top:40px; padding-bottom:20px; margin-bottom: 1px;}
+.Logo { display:flex; width:250px; padding:0 0 0 100px; }
+.logo_font a { text-decoration:none; color:inherit; }
+.logo_font img { width: 130px; height: 79px; }
+.search { position:relative; height:50px; width:600px; border:4px solid #87003a; border-radius:30px; margin-right:50px; background:#ffffff;
+          overflow:hidden; }
+.main_input { position:absolute; font-size:1em; width:500px; padding:15px 0 0 10px; border:0px; outline:none; float:left; }
+.main_search { position:absolute; top:0; right:0; width:70px; height:100%; border:0 solid #000000; background-color:#ffffff; outline:none;
+               float:right; cursor:pointer; }
+.main_search img { width:100%; height:100%; object-fit:cover; }
+.myWord { width:230px; margin-top:-5px; font-size:1.1em; font-family:"ONE-Mobile-Regular"; }
+.myWord span { text-emphasis:'✦'; letter-spacing:-2px; color:#99004c; font-size:1.22em; font-weight:bold; }
+.maIcon { display:flex; justify-content:space-between; width:320px; padding:0 80px 0 20px; box-sizing:border-box; }
+.maIcon img { width:50px; height:50px; }
+.nevBg1 { position:absolute; width:100%; height:204px; background-color:#ffffff; z-index:-1; }
+.nevBg2 { width:100%; height:50px; margin-top:154px; background-color:#99004c; }
+.nev1 { width:100%; height:60px; padding-top:10px; box-sizing:border-box; font-family:"ONE-Mobile-Regular"; }
+.nev2 { display:flex; width:100%; height:50px; padding-left:340px; padding-right:40px; box-sizing:border-box; background-color:#99004c; }
+.subCategory { display:flex; justify-content:space-between; width:100%; height:50px; }
+.scMenu { width:250px; height:50px; text-align:center; }
+.scMenu a { display:block; width:250px; height:50px; padding-top:14px; border-bottom:4px solid #99004c; box-sizing:border-box; text-decoration:none;
+            font-size:1.2em; color:#ffffff; }
+.scMenu a:hover { color:#99004c; background-color:#ffffff; transition:all ease 0.5s 0s; }
+.category { position:relative; width:300px; height:70px; margin-left:30px; margin-top:-60px; z-index:2; }
+#cateBtn { width:300px; height:70px; background-color:#5e0029; border:6px solid #99004c; box-sizing:border-box; border-radius:40px; cursor:pointer; }
+.ctbi img { width:220px; height:42px; }
+.allTheWay { display:flex; }
+#allCate {  display:none; }
+.acMenu { width:220px; height:70px; margin-left:40px; }
+#acBtn1 { width:220px; height:70px; text-align:center; color:#ffffff; font-size:1em; font-weight:bold; text-align:left; border-bottom:1px solid #7e0036;
+          padding:10px 0 10px 20px; box-sizing:border-box; background-color:#99004c; }
+#acBtn2 { width:220px; height:70px; text-align:center; color:#ffffff; font-size:1em; font-weight:bold; text-align:left; border-bottom:1px solid #7e0036;
+          padding:10px 0 10px 20px; box-sizing:border-box; background-color:#99004c; }
+#acBtn3 { width:220px; height:70px; text-align:center; color:#ffffff; font-size:1em; font-weight:bold; text-align:left; padding:10px 0 10px 20px;
+          box-sizing:border-box; background-color: #99004c; }
+#acSub { width:0; height:0; overflow:hidden; }
+.acSubBx { position:relative; }
+#subMes1 { position:absolute; display:flex; width:0px; height:0px; overflow:hidden; }
+#subMes2 { position:absolute; display:flex; width:0px; height:0px; overflow:hidden; }
+#subMes3 { position:absolute; display:flex; width:0px; height:0px; overflow:hidden; }
+.subMesContent { width:220px; height:100%; padding-top:5px; box-sizing:border-box; border-right:1px solid #cfcfcf; }
+.subMesContent a { text-decoration:none; color:#7e7e7e; }
+.subMesContent a:hover { text-decoration:underline; }
+.subMesContent li { list-style:none; padding:5px 0 5px 0; }
+.subMesContentImg { width: 340px; }
+.subMesContentImg img { width: 340px; height: 100%; }
+.mpfont { margin-top:60px; font-family:"ONE-Mobile-Regular"; font-size:2em; font-weight:bolder; }
+.mpfont > span { color:#99004c; }
+.productText { margin:30px 0; text-align:center; font-family:"ONE-Mobile-Regular"; font-size:2em; font-weight:bolder; }
+.bx { width:200px; height:330px; border:1px solid #dedede; padding:0; margin:auto; overflow:hidden; }
+.bx > a { text-decoration:none; color:#000000; }
+.imgContainer { width:200px; height:200px; overflow:hidden; }
+.imgContainer img { width:100%; height:100%; object-fit:cover; }
+.proText { width:200px; height:100px; padding-top:5px; text-align:center; }
+.proText_title {margin:0; padding:2px; height: 50px; border-bottom: 1px solid #000000;}
+.proText_title_name { margin-left: 10px; width: 180px; height: 18px;  overflow: hidden;  text-overflow: ellipsis;  white-space:nowrap;}
+.reviewPreview { display:flex; overflow:hidden; padding-top: 5px;}
+.reviewPreview1 { width:20%; height:100%; margin:0 5px; }
+.reviewPreview2 { width:80%; height:100%; margin:5px; font-size:0.8em; text-align:left; overflow: hidden; text-overflow: ellipsis;}
+.container { display:flex; width:100%; height:720px; border-top:3px solid #99004c; border-bottom:2px solid #cfcfcf; margin:30px 0;
+             font-family:"ONE-Mobile-Regular"; overflow:hidden; }
+.conTitle { width:15%; height:100%; padding:30px 0 0 10px; box-sizing:border-box; font-size:3em; font-weight:500; color:#ffffff;
+            background-color:#d88e8e; }
+.conTitle span { color:#99004c; }
+.conSubImg { width:50%; height:100%; }
+.gallery { display:flex; list-style:none; }
+.gallery:after { content:""; display:block; clear:both; visibility:hidden; }
+.gallery li { width:220px; box-sizing:border-box; }
+.gallery li img { width:100%; height:auto; }
+.footer { display:flex; justify-content: center; width:100%; height:250px; margin:40px 0; border:1px solid #939393; background-color:#ffffff; }
+.footerBox1 { display:flex; justify-content:end; width:960px; height:100%; }
+.support { width:670px; height:100%; padding:15px 0; font-family:"ONE-Mobile-Regular"; text-align:left; }
+.support p { color:#505050; }
+.footerBox2 { width:960px; height:100%; }
