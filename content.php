@@ -16,8 +16,7 @@
         while ($row = $query->fetch(PDO::FETCH_ASSOC)) {          // 반복문 검색한 상품들 끝날때까지
             
             if($i>3) break;
-                    //  반복카운트  3번반복마다 클래스 재생성
-                    //  반복이 6번을 넘어가면 반복중지
+                    //  반복이 3번을 넘어가면 반복중지
                     
             $pro_num = $row["pro_num"];          // 상품키를 변수에 저장
 

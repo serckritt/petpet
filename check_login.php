@@ -42,6 +42,7 @@
                   case  "http://localhost/petpet/sendcart.php":     
                   case  "http://localhost/petpet/buy.php":
                   case  "http://localhost/petpet/check_login.php":         
+                  case  "http://localhost/petpet/review_insert.php":         
                      prev =  "http://localhost/petpet/index.php"
                }
 
