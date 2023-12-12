@@ -38,11 +38,11 @@
                var prev = "<?php echo $prevPage; ?>";
                
                switch(prev){
-                  case  "http://localhost/petpet_work3/create_account.php":
-                  case  "http://localhost/petpet_work3/sendcart.php":     
-                  case  "http://localhost/petpet_work3/buy.php":
-                  case  "http://localhost/petpet_work3/check_login.php":         
-                     prev =  "http://localhost/petpet_work3/index.php"
+                  case  "http://localhost/petpet/create_account.php":
+                  case  "http://localhost/petpet/sendcart.php":     
+                  case  "http://localhost/petpet/buy.php":
+                  case  "http://localhost/petpet/check_login.php":         
+                     prev =  "http://localhost/petpet/index.php"
                }
 
                alert('환영합니다, '+jsvar +'님.');
